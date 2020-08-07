@@ -1,0 +1,291 @@
+/* Navbar */
+.navbar-brand {
+	X: 89px;
+	Y: 48px;
+	width: 128px;
+	height: 34px;
+	margin-top: 46px;
+}
+
+.nav-link {
+	margin-right: 30px;
+	line-height: 26px;
+	color: #261d40;
+	size: 14px;
+	font-family: SourceSansPro-SemiBold;
+	margin-top: 46px;
+}
+
+.nav-btn {
+	width: 90px;
+	height: 25px;
+	border-radius: 4px;
+	border: 1px solid #432b87 ;
+	text-align: center;
+	font-size: 14px;
+	color: #432b87;
+	margin-top: 55px;
+}
+
+.row {
+	padding: 20px;
+}
+
+.bg-img {
+	width: 110%;
+}
+
+.main {
+	font-family: SourceSansPro-SemiBold;
+	margin-left: 90px;
+	margin-top: 60px;
+}
+
+.main h1 {
+	font-weight: 100;
+	color: #261d40;
+}
+
+.main p {
+	font-size: 21px;
+	font-weight: 100;
+	margin-top: 25px;
+	color: rgba(57, 53, 69, 0.8);
+}
+
+.button2{
+	border: 1px solid #73c700;
+	background-color: #73c700;
+}
+
+.hero-btn{
+	border: 1px solid #73c700;
+	background-color: #73c700;
+	color:white;
+}
+
+.logo {
+	padding: 20px;
+}
+
+.link {
+	margin-right: 40px;
+	color: #261d40;
+	font-family: SourceSansPro-SemiBold;
+}
+
+.btn2 {
+	border: 1px solid #6cbb01;
+	background-color: #6cbb01;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+}
+
+.main1 {
+	font-family: SourceSansPro-SemiBold;
+	margin-left: 100px;
+}
+
+.main1 h1 {
+	font-weight: 100;
+	color: #261d40;
+}
+
+.main1 p {
+	font-size: 20px;
+	font-weight: 100;
+	margin-top: 20px;
+	color: rgba(57, 53, 69, 0.8);
+}
+
+.row-1{
+	padding: 30px;
+}
+
+.service{
+	font-family: sourcesanspro-semibold;
+	padding: 100px;
+	text-align: center;
+	color: #261d40;
+	margin-top: -50px;
+}
+
+.hr{
+	height: 3;
+	width: 36px;
+	margin-top: 10px;
+}
+.dono {
+    margin-left: 60px;
+}
+
+.ceo {
+    margin-left: 60px;
+}
+
+.items {
+	height: 450px;
+	width: 90%;
+    margin: 0px auto;
+    margin-top: 50px;
+    background-color: #fafafa;
+ }
+
+ .padding {
+     padding: 5rem
+ }
+
+ .card {
+     position: relative;
+     display: flex;
+     width: 280px;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-color: #fff;
+     background-clip: border-box;
+     border: 1px solid #d2d2dc;
+     border-radius: 11px;
+     -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+     -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+     box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+ }
+
+ .card .card-body {
+     padding: 1rem 1rem
+ }
+
+ .card-body {
+     flex: 1 1 auto;
+     padding: 1.25rem
+ }
+
+.slick-slide {
+     margin: 10px
+ }
+
+.col-sm { 
+    padding: 10px; 
+    border-radius: 15px; 
+    margin-top: -50px; 
+  } 
+
+.icon-people {
+    background-color: #432b87;
+    border-radius: 50px;
+    color: white;
+    margin-left: 13rem;
+    position: relative;
+}
+
+.news {
+	font-family: sourcesanspro-semibold;
+	text-align: center;
+	color: #261d40;
+	margin-top: 150px;
+
+}
+
+.more {
+	color: #261d40;
+	float: right;
+	font-weight: bold;
+}
+
+.png {
+	width: 12rem;
+}
+
+.hr2 {
+	height: 3;
+	width: 36px;
+	margin-top: 30px;
+}
+
+.download {
+	padding: 30px;
+}
+.button1 {
+	height: 45px;
+	border-radius: 4px;
+	border: 1px solid #432b87;
+	background-color: #432b87;
+	color: white;
+	text-align: center; 	
+	margin-top: 40px;
+}
+.button2{
+	margin-top: 6rem;
+	margin-left: 15rem;
+	border: 1px solid #73c700;
+	background-color: #73c700;
+	text-align: center;
+}
+.button3{
+	color: white;
+}
+.app {
+	height: 300px;
+	width: 100%;
+	margin-top: 40px;
+    background-color: #fafafa;
+ }
+.footer {
+	padding :80px 0;
+	text-align: center;
+	color: black;
+}
+
+/* responsive css */
+@media only screen and (max-width: 767px){
+	.main{
+		text-align: center;
+		margin-right: 80px;
+	}
+	.main1{
+		text-align: center;
+		margin-right: 70px;
+	}
+	.service{
+		margin-right: 30px;
+	}
+	.items {
+		height: 900px;
+	}
+	.card{
+		width: 100%;
+		position: relative;
+	}
+	.news{
+		position: relative;
+		padding: 50px;
+	}
+	.download{
+		padding:70px;
+		text-align: center;
+	}
+	.button2{
+		height: 50px;
+		width: 200px;
+		text-align: center;
+	}
+	.app {
+		height: 650px;
+		width: 100%;
+	}
+	.footer{
+		padding: 50px 0;
+	}
+@media (max-width:991.98px) {
+     .padding {
+         padding: 1.5rem;
+     }
+ }
+
+ @media (max-width:767.98px) {
+     .padding {
+         padding: 1rem;
+     }
+ }
+}
